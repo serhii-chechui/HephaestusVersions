@@ -1,6 +1,6 @@
 {
   "name": "com.wtfgames.hephaestus.versions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Hephaestus Versions",
   "description": "A simple toolkit for controll versions of the project.",
   "unity": "2019.2",
