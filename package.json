@@ -1,0 +1,18 @@
+{
+  "name": "com.wtfgames.hephaestus.versions",
+  "version": "1.0.0",
+  "displayName": "Hephaestus Versions",
+  "description": "A simple toolkit for controll versions of the project.",
+  "unity": "2019.2",
+  "keywords": [
+    "unity",
+    "versions",
+    "toolkit"
+  ],
+  "author": {
+    "name":"Serhii Chechui",
+    "email": "serhii.chechui@gmail.com",
+    "url": "https://github.com/serhii-chechui"
+  }
+}
+        
