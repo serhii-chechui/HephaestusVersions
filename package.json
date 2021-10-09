@@ -9,10 +9,14 @@
     "versions",
     "toolkit"
   ],
-  "author": {
-    "name":"Serhii Chechui",
-    "email": "serhii.chechui@gmail.com",
-    "url": "https://github.com/serhii-chechui"
-  }
+  "author": "Serhii Chechui <serhii.chechui@gmail.com> (https://github.com/serhii-chechui)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhii-chechui/HephaestusVersions.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serhii-chechui/HephaestusVersions/issues"
+  },
+  "homepage": "https://github.com/serhii-chechui/HephaestusVersions#readme"
 }
-        
