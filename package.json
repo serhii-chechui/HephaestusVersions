@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/serhii-chechui/HephaestusVersions/issues"
   },
-  "homepage": "https://github.com/serhii-chechui/HephaestusVersions#readme"
+  "homepage": "https://github.com/serhii-chechui/HephaestusVersions#readme",
+  "publishConfig": "http://18.197.210.148:4873"
 }
+
+        
