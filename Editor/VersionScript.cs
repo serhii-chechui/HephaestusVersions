@@ -18,6 +18,7 @@ namespace HephaestusVersions.Editor
         public static void IncreaseMajor()
         {
             IncreaseVersion((int) VersionTypes.MAJOR);
+            IncreaseSubVersion();
         }
 
         [MenuItem("Tools/Versions/Major/Reset Major")]
@@ -34,6 +35,7 @@ namespace HephaestusVersions.Editor
         public static void IncreaseMinor()
         {
             IncreaseVersion((int) VersionTypes.MINOR);
+            IncreaseSubVersion();
         }
 
         [MenuItem("Tools/Versions/Minor/Reset Minor")]
@@ -46,10 +48,11 @@ namespace HephaestusVersions.Editor
 
         #region Patch
 
-        [MenuItem("Tools/Versions/Patch/Patch – 0.0.X.(0)")]
+        [MenuItem("Tools/Versions/Patch/Patch – 0.0.X.(X)")]
         public static void IncreasePatch()
         {
             IncreaseVersion((int) VersionTypes.PATCH);
+            IncreaseSubVersion();
         }
 
         [MenuItem("Tools/Versions/Patch/Reset Patch")]
@@ -70,7 +73,7 @@ namespace HephaestusVersions.Editor
 
         [MenuItem("Tools/Versions/Subversion/Reset Subversion")]
         public static void ResetSubversion() {
-            ResetSubversionToZero();
+            ResetSubversionToOne();
         }
 
         private static void IncreaseSubVersion()
@@ -84,10 +87,10 @@ namespace HephaestusVersions.Editor
             PlayerSettings.Android.bundleVersionCode = bundleVersionCode;
         }
 
-        private static void ResetSubversionToZero()
+        private static void ResetSubversionToOne()
         {
-            PlayerSettings.iOS.buildNumber = "0";
-            PlayerSettings.Android.bundleVersionCode = 0;
+            PlayerSettings.iOS.buildNumber = "1";
+            PlayerSettings.Android.bundleVersionCode = 1;
         }
 
         #endregion
@@ -108,7 +111,7 @@ namespace HephaestusVersions.Editor
         private static void ResetVersion(int versionType)
         {
             var version = PlayerSettings.bundleVersion.Split('.');
-            version[versionType] = "0";
+            version[versionType] = "1";
             PlayerSettings.bundleVersion = string.Join(".", version);
         }
 
