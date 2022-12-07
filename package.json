@@ -1,6 +1,6 @@
 {
   "name": "com.wtfgames.hephaestus.versions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "Hephaestus Versions",
   "description": "A simple toolkit for controll versions of the project.",
   "unity": "2019.2",
@@ -21,5 +21,3 @@
   "homepage": "https://github.com/serhii-chechui/HephaestusVersions#readme",
   "publishConfig": "http://18.197.210.148:4873"
 }
-
-        
