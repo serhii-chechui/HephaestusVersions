@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.0.0] - 2026-09-24
 
 ### BREAKING CHANGES
 - The menu moved from **Tools → Versions** to **Hephaestus → Versions**; "Subversion" items are now "Build Number".
