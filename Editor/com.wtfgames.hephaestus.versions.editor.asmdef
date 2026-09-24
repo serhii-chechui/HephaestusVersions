@@ -1,5 +1,6 @@
 {
-    "name": "WTFGames.HephaestusVersions.Editor",
+    "name": "com.wtfgames.hephaestus.versions.editor",
+    "rootNamespace": "WTFGames.Hephaestus.VersionsSystem.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"
@@ -7,9 +8,7 @@
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
-    "precompiledReferences": [
-        ""
-    ],
+    "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
