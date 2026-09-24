@@ -2,22 +2,21 @@
   "name": "com.wtfgames.hephaestus.versions",
   "version": "1.0.3",
   "displayName": "Hephaestus Versions",
-  "description": "A simple toolkit for controll versions of the project.",
+  "description": "Hephaestus Versions is a part of the Hephaestus Core framework that bumps the project version (MAJOR.MINOR.PATCH) and the iOS, tvOS, macOS and Android build numbers from the editor menu.",
   "unity": "2019.2",
   "keywords": [
     "unity",
+    "mobile",
+    "framework",
     "versions",
-    "toolkit"
+    "build number"
   ],
-  "author": "WTFGames <serhii.chechui@gmail.com> (https://github.com/serhii-chechui/HephaestusVersions.git)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/serhii-chechui/HephaestusVersions.git"
+  "author": {
+    "name": "WTFGames",
+    "email": "serhii.chechui@gmail.com",
+    "url": "https://github.com/serhii-chechui"
   },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/serhii-chechui/HephaestusVersions/issues"
-  },
-  "homepage": "https://github.com/serhii-chechui/HephaestusVersions#readme",
-  "publishConfig": "http://18.197.210.148:4873"
+  "publishConfig": {
+    "registry": "https://upm.wtfgames.com.ua/"
+  }
 }
