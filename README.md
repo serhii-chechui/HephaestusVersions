@@ -88,4 +88,9 @@ EditMode tests live in `Tests/Editor`. To run them from a project, add the packa
 
 ## License
 
-[GPL-3.0](LICENSE.md)
+Copyright (C) 2021-2026 Serhii Chechui (WTFGames).
+
+Hephaestus Versions is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version (`GPL-3.0-or-later`). See [LICENSE.md](LICENSE.md) for the full text.

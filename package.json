@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "displayName": "Hephaestus Versions",
   "description": "Hephaestus Versions is a part of the Hephaestus Core framework that bumps the project version (MAJOR.MINOR.PATCH) and the iOS, tvOS, macOS and Android build numbers from the editor menu.",
+  "license": "GPL-3.0-or-later",
   "unity": "2019.2",
   "keywords": [
     "unity",
