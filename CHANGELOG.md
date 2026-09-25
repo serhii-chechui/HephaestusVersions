@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1] - 2026-09-26
+
+### ci
+- The publish workflow runs on the release `published` event instead of `created`, which also fired on
+  saving a draft. It is copied from the shared `_Template`.
+
+### docs
+- Licensed under `GPL-3.0-or-later`: `LICENSE.md` now starts with the package notice, `package.json` has the
+  `license` field, and README has a License section with the copyright and license terms.
+
 ## [2.0.0] - 2026-09-24
 
 ### BREAKING CHANGES
